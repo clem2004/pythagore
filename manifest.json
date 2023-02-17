@@ -1,0 +1,11 @@
+{
+    "display": "fullscreen",
+    "name": "Pythagore",
+    "background_color": "#000000",
+    "theme_color": "#2ecc40",
+    "orientation": "portrait",
+    "icons": [{
+        "src": "phone.png",
+        "sizes": "256x256"
+    }]
+}

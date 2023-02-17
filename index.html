@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="x-fr-CA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>+1 (800) PYT-AGOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="phone.png" type="image/png" />
+  </head>
+  <body>
+    <div id="container" class="container center">
+      <div class="phone">
+        <div class="wallpaper"></div>
+        <div class="content">
+          <header class="center">
+            <h1 id="title">Pythagore</h1>
+            <h3 id="timer">Appel entrant</h3>
+          </header>
+          <main>
+            <div id="keypad" class="hidden">
+              <div class="row">
+                <button id="1">1<span></span></button>
+                <button id="2">2<span>A B C</span></button>
+                <button id="3">3<span>D E F</span></button>
+              </div>
+              <div class="row">
+                <button id="4">4<span>G H I</span></button>
+                <button id="5">5<span>J K L</span></button>
+                <button id="6">6<span>M N O</span></button>
+              </div>
+              <div class="row">
+                <button id="7">7<span>P Q R S</span></button>
+                <button id="8">8<span>T U V</span></button>
+                <button id="9">9<span>W X Y Z</span></button>
+              </div>
+              <div class="row">
+                <button id="*">﹡</button>
+                <button id="0">0<span>+</span></button>
+                <button id="#">#</button>
+              </div>
+              <div class="row">
+                <div class="spacer"></div>
+                <button id="hangup"></button>
+                <div class="spacer"></div>
+              </div>
+            </div>
+            <div id="incoming">
+              <div class="row">
+                <button id="decline"></button>
+                <div id="spacer"></div>
+                <button id="accept"></button>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </div>
+    <audio id="ringtone" src="ringtone.mp3"></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
